@@ -1,0 +1,27 @@
+# ---- macOS / 에디터 ----
+.DS_Store
+.idea/
+.vscode/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- 원본/가공 데이터 (용량이 크고 Kaggle 약관상 재배포 지양) ----
+data/
+*.csv
+!results/**/*.csv
+!requirements.txt
+
+# ---- 중간 산출물 / 모델 파일 ----
+*.pkl
+*.npy
+output/
+catboost_info/
+
+# ---- 발표자료 생성용 파일 ----
+*.pptx
