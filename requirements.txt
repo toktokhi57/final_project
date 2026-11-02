@@ -1,0 +1,13 @@
+# Home Credit 신용등급 예측 프로젝트 의존 패키지
+# 버전은 본인 환경에서 `pip freeze | grep -iE "pandas|numpy|scikit|xgboost|lightgbm|catboost|shap|scipy|imbalanced|matplotlib"` 로
+# 확인한 뒤 고정(예: pandas==2.2.2)하면 재현성이 높아집니다.
+pandas
+numpy
+scipy
+scikit-learn
+xgboost
+lightgbm
+catboost
+shap
+imbalanced-learn
+matplotlib
