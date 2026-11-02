@@ -1,0 +1,4 @@
+﻿모델,튜닝전_CV_AUC,튜닝후_CV_AUC,튜닝후_Valid_AUC,최적_파라미터,소요시간(초)
+XGBoost,0.7838,0.7825,0.7912,"{'colsample_bytree': 0.9400154311159197, 'learning_rate': 0.09539562808625864, 'max_depth': 3, 'min_child_weight': 7, 'n_estimators': 606, 'subsample': 0.8675365010654429}",2877.7
+LightGBM,0.781,0.7809,0.7896,"{'colsample_bytree': 0.6682096494749166, 'learning_rate': 0.02235980266720311, 'max_depth': 8, 'n_estimators': 515, 'num_leaves': 28, 'subsample': 0.9233589392465844}",2262.1
+CatBoost,0.783,0.7811,0.7894,"{'depth': 8, 'iterations': 800, 'l2_leaf_reg': 5.01249477568232, 'learning_rate': 0.028995234005420548}",8884.2
